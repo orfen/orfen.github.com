@@ -12,7 +12,7 @@
 
 
 			  <script type="text/javascript" src="http://mbostock.github.com/d3/d3.js?1.27.2"></script>
-			    <script type="text/javascript" src="http://mbostock.github.com/d3/d3.layout.js?1.27.2"></script>
+			    <!--script type="text/javascript" src="http://mbostock.github.com/d3/d3.layout.js?1.27.2"></script-->
 			    <style type="text/css">
 
 			.node rect {
@@ -54,6 +54,7 @@
 
       </header>
       <section>
+  <div id="chart"></div>
         <h3>Welcome to ORFen</h3>
 
 <p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
@@ -73,7 +74,7 @@ $ git checkout gh-pages
 <p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2012, Jeremy Taylor (<a href="https://github.com/jez0990" class="user-mention">@jez0990</a>) founded ORFen.</p>
 
 <h3>ReMap Kernel</h3>
-			    <div id="chart"></div>
+			  
 
 			<script type="text/javascript">
 
@@ -229,20 +230,5 @@ $ git checkout gh-pages
 
   </body>
 </html>
-
-
-
-
-
-
-
-
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-  
-</head>
-<body>
 
 
