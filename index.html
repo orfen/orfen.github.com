@@ -1,35 +1,140 @@
-<!doctype html>
-<html style="background-color:#000;color:#ddd;font-weight:bold;font-family:sans-serif">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>ORFen</title>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
 
-   <style type="text/css"> 
-		A:link {color: #FFF; text-decoration: none;} 
-		A:visited {color: #FFF; text-decoration: none;} 
-		A:hover {color: #FFF; text-decoration: underline;} 
-</style> 
-  </head>
-  <body style="">
-	<div style="height:20%;"><a href="http://twitter.com/orfencic">Twitter</a> | <a href="http://github.com/orfen">Github</a></div>
-  
-	<!--div style="height:80%;background:url(Operation_ReMap.png) center center no-repeat;"></div-->
-	<div style="text-align:center"><img src="https://lh3.googleusercontent.com/-w7BVL8aAfWs/UEDsikyQNFI/AAAAAAAAAgs/i_9qF_-xk8I/s720/Operation_ReMap.png"></img></div>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 60px;
+                padding-bottom: 40px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+        <link rel="stylesheet" href="css/main.css">
 
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
 
-  <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-  </script>
-  <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-33114433-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-  </script>
+        <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
 
-  </body>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="#">ORFen</a> 
+                    <div class="nav-collapse collapse">
+                        <ul class="nav">
+                            <li><a href="https://github.com/orfen">Code</a></li>
+                            <li><a href="https://twitter.com/orfencic">Twitter</a></li>
+                            <li><a href="irc://irc.freenode.net/#orfen">IRC</a></li>                            
+                            <!--li class="active"><a href="#">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li class="divider"></li>
+                                    <li class="nav-header">Nav header</li>
+                                    <li><a href="#">Separated link</a></li>
+                                    <li><a href="#">One more separated link</a></li>
+                                </ul>
+                            </li-->
+                        </ul>
+                        <!--form class="navbar-form pull-right">
+                            <input class="span2" type="text" placeholder="Email">
+                            <input class="span2" type="password" placeholder="Password">
+                            <button type="submit" class="btn">Sign in</button>
+                        </form-->
+                    </div><!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <!-- Main hero unit for a primary marketing message or call to action -->
+            <div class="hero-unit">
+                <h1>Ubiquitous social technology,</h1>
+                <h1>For the benefit of the human race.</h1>
+                <!--p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+                <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p-->
+            </div>
+
+            <!-- Example row of columns -->
+            <div class="row">
+                <div class="span4">
+                    <h2>What do we want?</h2>
+                    <!--p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                    <p><a class="btn" href="#">View details &raquo;</a></p-->
+                    <p>The introduction of a new model for producing and consuming technology that is founded on socially-upheld priniciples.
+                      <br/><br/>
+                      This model demands the manifestation of - what can only be described as - a "Unified Social Operating System" that massively empowers all its users.
+                      <br/><br/>
+                      Such an operating system will drastically simplify all our lives.
+                    </p>
+                </div>
+                <div class="span4">
+                    <h2>How is it possible?</h2>
+                    <!--p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                    <p><a class="btn" href="#">View details &raquo;</a></p-->
+                    <p>Actually, it's entirely inevitable!</p>
+                    <p>The Node.js developer community is building this future right now.</p>
+                    <p>Simple & elegant programming changes everything.</p>
+                    <p>This history of Computer Engineering is essentially a story of finding increasingly powerful abstractions with which to manipulate our reality. The story is far from over and this community is rapidly approaching an especially exciting chapter.</p>                    
+                </div>
+                <div class="span4">
+                    <h2>Who are we?</h2>
+                    <p>ORFen is a <a href="http://www.bis.gov.uk/cicregulator">"community interest company"</a> formed in the UK during the summer of 2012. ORFen exists to enable structured collaboration between people and institutions.</p>
+                    <h5>Alexander Swanepoel, Public Relations</h5>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;Passionate master of the physical realm.</p>                    
+                    <h5>Jeremy Taylor, Founder</h5>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;Self-declared wizard with a little too much perspective.</p>
+                    
+                    
+                    <!--p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                    <p><a class="btn" href="#">View details &raquo;</a></p-->
+                </div>
+            </div>
+
+            <hr>
+
+            <footer>
+                <p>&copy; ORFen C.I.C. 2013</p>
+            </footer>
+
+        </div> <!-- /container -->
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/main.js"></script>
+
+        <script>
+            var _gaq=[['_setAccount','UA-33114433-1'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    </body>
 </html>
-
-
